@@ -3,3 +3,9 @@
 @import './components/Footer/Footer.css';
 @import './components/Header/Header.css';
 @import './components/Homepage/Homepage.css';
+
+
+.App {
+  width: 100%;
+  height: 100vh;
+}

@@ -1,1 +1,13 @@
-/*# sourceMappingURL=Header.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+.header {
+  font-family: "Lora", sans-serif;
+}
+.header h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 48px;
+}
+.header h3 {
+  padding: 0;
+  margin-top: 0;
+}/*# sourceMappingURL=Header.css.map */
