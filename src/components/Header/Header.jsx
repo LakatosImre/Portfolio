@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <div>
+    <div className='navBar'>
         <nav>
-            <ul>
+            <ul className='routing'>
                 <li>
                     <Link to={'/'}>Home</Link>
                 </li>
