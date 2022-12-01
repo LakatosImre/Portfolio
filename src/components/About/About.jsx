@@ -3,7 +3,11 @@ import React from 'react'
 function About() {
   return (
     <div>
-      About
+      <ul className='about'>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   )
 }
