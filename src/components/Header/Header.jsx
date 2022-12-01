@@ -9,13 +9,13 @@ function Header() {
         <nav className='navBar'>
             <ul className='routing'>
                 <li>
-                    <Link to={'/'}>Home</Link>
+                    <Link to={'/'} className="links">Home</Link>
                 </li>
                 <li>
-                    <Link to={'/about'}>About</Link>
+                    <Link to={'/about'} className="links">About</Link>
                 </li>
                 <li>
-                    <Link to={'/contacts'}>Contacts</Link>
+                    <Link to={'/contacts'} className="links">Contacts</Link>
                 </li>
             </ul>
         </nav>

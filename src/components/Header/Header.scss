@@ -13,4 +13,21 @@
         padding: 0;
         margin-top: 0;
     }
+
+    .navBar {
+        ul {
+            list-style-type: none;
+            color: black;
+        }
+
+        .links {
+            color: black;
+            text-decoration: none;
+        }
+
+        .links:visited {
+            color: black;
+            text-decoration: none;
+        }
+    }
 }

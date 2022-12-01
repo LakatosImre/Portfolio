@@ -2,8 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-      
+    <div className='footer'>
+      <input type="checkbox"/>
+      <p>Light/Dark</p>
     </div>
   )
 }

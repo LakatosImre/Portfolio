@@ -1,1 +1,4 @@
-/*# sourceMappingURL=Footer.css.map */
+.footer {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=Footer.css.map */
