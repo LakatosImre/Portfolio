@@ -8,33 +8,33 @@ import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <Homepage />
-      },
-      {
-        path: "/about",
-        element: <About />
-      },
-      {
-        path: "/contacts",
-        element: <Contacts />
-      }
-    ]
-  }
-])
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <App />,
+//     children: [
+//       {
+//         path: "/",
+//         element: <Homepage />
+//       },
+//       {
+//         path: "/about",
+//         element: <About />
+//       },
+//       {
+//         path: "/contacts",
+//         element: <Contacts />
+//       }
+//     ]
+//   }
+// ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter>
-      <RouterProvider router={router} />
-    </HashRouter>
+      <HashRouter>
+        <App />
+      </HashRouter>
   </React.StrictMode>
 );
 
