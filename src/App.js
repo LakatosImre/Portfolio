@@ -1,15 +1,15 @@
 import './App.css';
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import { useState } from 'react';
+//import { useState } from 'react';
 import Homepage from './components/Homepage/Homepage';
 import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
 
 
 function App() {
-  const [dark, setDark] = useState(false)
+  //const [dark, setDark] = useState(false)
 
   return (
     <div className="App">

@@ -1,33 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, HashRouter, RouterProvider} from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import './index.css';
 import App from './App';
-import Homepage from './components/Homepage/Homepage';
-import About from './components/About/About';
-import Contacts from './components/Contacts/Contacts';
-
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//     children: [
-//       {
-//         path: "/",
-//         element: <Homepage />
-//       },
-//       {
-//         path: "/about",
-//         element: <About />
-//       },
-//       {
-//         path: "/contacts",
-//         element: <Contacts />
-//       }
-//     ]
-//   }
-// ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
